@@ -1,0 +1,52 @@
+
+.CustomerReviews {
+    width: 80%;
+    height: 600px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 5px;
+    /* padding-bottom: 10px; */
+    /* background-color: #0C371E; */
+    /* border: 2px solid #2b5c8d;  */
+  /* border-radius: 10px;  */
+  /* padding: 15px;  */
+    
+  }
+  
+  .ReviewCardGroup {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 30px; /* Spațiu între carduri */
+  }
+  
+  .ReviewCard {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 220px;
+    text-align: left;
+    background-color: rgb(239, 239, 239); /* Culoarea cardului */
+    transition: transform 0.2s; /* Efect de tranziție pentru hover */
+  }
+  
+  .ReviewCard:hover {
+    transform: scale(1.05); /* Mărește cardul la hover */
+  }
+  
+  .CustomerPhoto {
+    width: 80px;
+    border-radius: 50%;
+  }
+  
+  .Rating {
+    color: #ffd700;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+  
+  .Star {
+    margin: 0 2px;
+  }
+  

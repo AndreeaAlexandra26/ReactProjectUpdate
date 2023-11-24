@@ -1,0 +1,76 @@
+
+    
+
+  .nav-guest {
+    display: flex;
+margin: auto;
+ justify-content: space-between;
+    align-items: center;
+    background:linear-gradient(to right, #52A475,rgb(6, 244, 30));
+    z-index: 1;
+  }
+
+
+  .nav-admin {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background:linear-gradient(to right, #6f7270,rgb(6, 244, 30));
+    z-index: 1;
+  }
+
+  .nav-user {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background:linear-gradient(to right, #9fe430,rgb(6, 244, 30));
+    z-index: 1;
+  }
+  
+  .Logo {
+    padding: 6px;
+  }
+  
+  .ContainerName{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+ /* NumeComponenta.css */
+
+.ContainerButoane {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.ContainerButoane a {
+  text-decoration: none;
+}
+
+.ContainerButoane Button {
+  margin: 10px;
+  padding: 4px;
+  color: #446254;
+  font-size: 20px;
+  font-weight: 700;
+  font-family: 'Lato', sans-serif;
+  text-decoration: none; /* Eliminați sublinierea implicită a legăturii */
+  transition: text-decoration 0.3s ease-in-out; /* Efect de tranziție pentru subliniere */
+}
+
+.ContainerButoane Button:hover {
+  text-decoration: underline; /* Subliniere la hover */
+  color: #55a372;
+}
+
+.FaShoppingCart {
+  margin-right: 20px;
+  font-size: 30px;
+  
+}
+
+  
+  
+  

@@ -1,0 +1,73 @@
+.Footer {
+  background-color: #0C371E;
+
+  
+}
+
+.Coloane{
+  display: flex;
+ /* flex-direction: column; */
+  justify-content: space-around;
+  align-items: center;
+  bottom: 0;
+  width: 100%;
+  height: 270px;
+}
+
+.Column{
+  text-align: center;
+  position: relative;
+  color: #DBECE2;
+  margin-bottom: 20px;
+}
+
+.Column h4 {
+  position: relative;
+}
+
+.Column h4::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 1px;
+  background-color: #FFF7B0;
+  position: absolute;
+  bottom: 0;
+ 
+}
+
+.Column svg {
+  margin-right: 5px;
+  width: 25px ;
+  height: 25px;
+  display: inline-block;
+}
+
+.Column p{
+  margin: 10px ;
+  font-size: 17px;
+}
+
+.Icons {
+  display: flex;
+  margin-right: 5px;
+  
+ } 
+
+.Logo {
+  width: 50px;
+}
+
+.Paragraf {
+  color: #DBECE2;
+  font-size: 13px;
+}
+
+.FooterBottom {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+  
+ 
+}

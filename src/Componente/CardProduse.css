@@ -1,0 +1,40 @@
+
+.card {
+    width: 18rem;
+    margin: auto;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+  }
+  
+  .card-img {
+    width: 200px;
+  }
+  
+  .card-title {
+    font-size: 20px;
+  }
+  
+  .card-text {
+    margin-bottom: 10px;
+  }
+  
+  .details-button {
+    margin-right: 10px;
+  }
+  
+  .add-to-cart-button {
+    margin-top: 10px;
+  }
+  
+  .modal-header {
+    background-color: #d7f8e5; /* O culoare pentru a atrage atenția, poți să o ajustezi */
+    color: #721c24;
+  }
+  
+  .modal-footer {
+    background-color: #d7f8e5;
+  }
+  
